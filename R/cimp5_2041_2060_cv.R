@@ -1,0 +1,31 @@
+#' Coefficient Variation of the Mean Seafloor Climatic Data among CIMP5 Models during 2041 to 2060
+#'
+#' Coefficient variation of the mean projected (RCP8.5) export POC flux to seafloor, bottom dissolved oxygen concentration,
+#' hydrogen ion concentration and temperature were averaged from the Geophysical Fluid Dynamics Laboratory’s ESM 2G
+#' (GFDL-ESM-2G), Institut Pierre Simon Laplace’s CM6-MR (IPSL-CM5A-MR) and Max Planck Institute’s ESM-MR (MPI-ESM-MR)
+#' within the Coupled Models Intercomparison Project Phase 5 (CIMP5).
+#'
+#' @details
+#' Yearly mean from 2041 to 2060 were calculated for the GFDL-ESM-2G, IPSL-CM5A-MR
+#' and MPI-ESM-MR respectively. Coefficient variation of the mean was calculated among the three models for the periods of 2041 to 2060.
+#' The export POC flux at seafloor was compute from the
+#' export production at 100 m (epc100) using the Martin curve (Martin et al., 1987) following the quation:
+#' \eqn{Flux = epc100*(depth/export depth)^-0.858}. The depth use \code{\link{etopo1}} and export depth was set to 100 m.
+#' All CIMP5 data were download from \url{https://esgf-node.llnl.gov/search/esgf-llnl/}.
+#' @docType data
+#' @keywords datasets
+#' @format A RasterBrick object of 4 raster layers:
+#' \describe{
+#'   \item{epc_cv_2041_to_2060}{Coefficient variation of the mean export POC flux to seafloor (\%)}
+#'   \item{o2_cv_2041_to_2060}{Coefficient variation of the mean dissolved oxygen concentration at seafloor (\%)}
+#'   \item{ph_cv_2041_to_2060}{Coefficient variation of the mean hydrogen ion concentration at seafloor (\%)}
+#'   \item{thetao_cv_2041_to_2060}{Coefficient variation of the mean potential temperature at seafllor (\%)}
+#'   \item{arag_cv_2041_to_2060}{Coefficient variation of aragonite Concentration (\%)}
+#'   \item{calc_cv_2041_to_2060}{Coefficient variation of calcite Concentration (\%)}
+#'   \item{co3_cv_2041_to_2060}{Coefficient variation of mole Concentration of Carbonate expressed as Carbon in Sea Water (\%)}
+#'   \item{co3satarag_cv_2041_to_2060}{Coefficient variation of mole Concentration of Aragonite expressed as Carbon in Sea Water at Saturation (\%)}
+#'   \item{co3satcalc_cv_2041_to_2060}{Coefficient variation of mole Concentration of Calcite expressed as Carbon in Sea Water at Saturation (\%)}
+#' }
+#' @source \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
+#' @name cimp5_2041_2060_cv
+NULL

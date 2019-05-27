@@ -1,0 +1,27 @@
+#' Basin mask used for WOA2013v2 climatology objective analysis
+#'
+#' Basins defined for objective analysis and the shallowest standard depth level for which each basin is defined
+#'
+#' @docType data
+#' @keywords datasets
+#' @format A RasterLayer object of 15 basin numbers
+#' \describe{
+#'   \item{0}{Land mass}
+#'   \item{1}{Atlantic Ocean}
+#'   \item{2}{Pacific Ocean}
+#'   \item{3}{Indian Ocean}
+#'   \item{4}{Mediterranean Sea}
+#'   \item{5}{Baltic Sea}
+#'   \item{6}{Black Sea}
+#'   \item{7}{Red Sea}
+#'   \item{8}{Persian Gulf }
+#'   \item{9}{Hudson Bay }
+#'   \item{10}{Southern Ocean }
+#'   \item{11}{Arctic Ocean }
+#'   \item{12}{Sea of Japan}
+#'   \item{53}{Caspian Sea }
+#'   \item{56}{Bay of Bengal}
+#' }
+#' @source \url{https://www.nodc.noaa.gov/OC5/woa13/masks13.html}
+#' @name mk
+NULL

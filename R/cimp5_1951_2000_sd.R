@@ -1,0 +1,52 @@
+#' Model-Averaging Decadal Standard deviation of Seafloor Climatic Data during 1951 to 2000
+#'
+#' Emsemble average of the decadal Standard deviation of seafloor (bottom-most) projections based on historical scenario of CIMP5 experiment.
+#'
+#' @details
+#' Yearly mean projections from 1951 to 2000 were calculated from each of the GFDL-ESM-2G, IPSL-CM5A-MR and MPI-ESM-MR.
+#' Decadal Standard deviation was calculated from the yearly mean and than averaged across the three models.
+#' @docType data
+#' @keywords datasets
+#' @format A RasterBrick object of 4 raster layers:
+#' \describe{
+#'   \item{epc_sd_1951_to_2000}{Standard deviation of export POC flux to seafloor (mg C m^-2 d^-1)}
+#'   \item{o2_sd_1951_to_2000}{Standard deviation of dissolved oxygen concentration at seafloor (mol m^-3)}
+#'   \item{ph_sd_1951_to_2000}{Standard deviation of pH at seafloor (M)}
+#'   \item{thetao_sd_1951_to_2000}{Standard deviation of potential temperature at seafllor (K)}
+#'   \item{arag_sd_1951_to_2000}{Standard deviation of aragonite Concentration (mol m-3)}
+#'   \item{calc_sd_1951_to_2000}{Standard deviation of calcite Concentration (mol m-3)}
+#'   \item{co3_sd_1951_to_2000}{Standard deviation of mole Concentration of Carbonate expressed as Carbon in Sea Water (mol m-3)}
+#'   \item{co3satarag_sd_1951_to_2000}{Standard deviation of carbonate ion concentration for seawater in equilibrium with pure aragonite (mol m-3)}
+#'   \item{co3satcalc_sd_1951_to_2000}{Standard deviation of carbonate ion concentration for seawater in equilibrium with pure calcite (mol m-3)}
+#'   \item{aragsat_sd_1951_to_2000}{Standard deviation of Aragonite Saturation State}
+#'   \item{calcsat_sd_1951_to_2000}{Standard deviation of Calcite Saturation State}
+#' }
+#' @source \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
+#' @name cimp5_1951_2000_sd
+#' @examples
+#' # Mask the raster brick by 200 to 2000 m
+#' r0 <- mask(cimp5_1951_2000_sd, mask2000)
+#'
+#' # Only show color between 1 to 99 percentile
+#' r <- raster()
+#' for(i in 1:4){
+#'   d <- subset(r0, i)
+#'   ma <- quantile(d, 0.99)
+#'   mi <- quantile(d, 0.01)
+#'   d[d>ma] <- ma
+#'   d[d<mi] <- mi
+#'   if(i==2) d <- d*15.9994 # to mg/L
+#'   if(i==3) d <- log10(d)*(-1) # to total scale
+#'   if(i==4) d <- d-273.15 # to degree C
+#'   r <- addLayer(r, d)
+#' }
+#' names(r) <- names(r0)
+#'
+#' # plot on google earth
+#' library(plotKML)
+#' for(i in 1:4){
+#'   plotKML(subset(r, i), folder.name=names(r)[i],
+#'           colour_scale = jet.col.log(100),
+#'           raster_name = paste(names(r)[i], "png", sep="."))
+#' }
+NULL

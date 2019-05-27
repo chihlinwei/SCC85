@@ -1,0 +1,12 @@
+Package: SCC85
+Title: Seafloor Climate Change Projections from CIMP5
+Version: 0.0.0.3
+Author: Chih-Lin Wei
+Maintainer: Chih-Lin Wei <chihlinwei@gmail.com>
+Description: This package containing CIMP5 historical and RCP8.5 climate change projection.
+Depends: R (>= 3.4.3), raster, lattice
+Imports: raster, lattice
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

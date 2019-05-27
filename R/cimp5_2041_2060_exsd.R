@@ -1,0 +1,25 @@
+#' Exposure to Climate Change Hazard by 2041 to 2060
+#'
+#' Magnitude of climate change by 2041 to 2060 in the unit of historical variability
+#'
+#' @details
+#' Exposure to climate change hazard was calculated as \code{\link{cimp5_2041_2060_ch}} divided by \code{\link{cimp5_1951_2000_sd}}.
+#' @docType data
+#' @keywords datasets
+#' @format A RasterBrick object of 4 raster layers:
+#' \describe{
+#'   \item{epc_exsd_2041_to_2060}{Exposure to climate change hazard in export POC flux to seafloor}
+#'   \item{o2_exsd_2041_to_2060}{Exposure to climate change hazard in dissolved oxygen concentration at seafloor}
+#'   \item{ph_exsd_2041_to_2060}{Exposure to climate change hazard in hydrogen ion concentration at seafloor}
+#'   \item{thetao_exsd_2041_to_2060}{Exposure to climate change hazard in potential temperature at seafllor}
+#'   \item{arag_exsd_2041_to_2060}{Exposure to climate change hazard in aragonite Concentration}
+#'   \item{calc_exsd_2041_to_2060}{Exposure to climate change hazard in calcite Concentration}
+#'   \item{co3_exsd_2041_to_2060}{Exposure to climate change hazard in mole Concentration of Carbonate expressed as Carbon in Sea Water}
+#'   \item{co3satarag_exsd_2041_to_2060}{Exposure to climate change hazard in carbonate ion concentration for seawater in equilibrium with pure aragonite}
+#'   \item{co3satcalc_exsd_2041_to_2060}{Exposure to climate change hazard in carbonate ion concentration for seawater in equilibrium with pure calcite}
+#'   \item{aragsat_exsd_2041_to_2060}{Exposure to climate change hazard in aragonite Saturation State}
+#'   \item{calcsat_exsd_2041_to_2060}{Exposure to climate change hazard in calcite Saturation State}
+#' }
+#' @source \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
+#' @name cimp5_2041_2060_exsd
+NULL
