@@ -27,7 +27,7 @@ within the Coupled Models Intercomparison Project Phase 5 (CIMP5).
 }
 \details{
 Yearly mean from 1951 to 2000 (historical) were calculated for the GFDL-ESM-2G, IPSL-CM5A-MR and MPI-ESM-MR respectively. Coefficient variation of the mean
-was calculated among the three models for the periods of 1951 to 2000. The export POC flux at seafloor was compute from the
+was calculated among the three models for the periods of 1951 to 2000. The export POC flux at seafloor was computed from the
 export production at 100 m (epc100) using the Martin curve (Martin et al., 1987) following the quation:
 \eqn{Flux = epc100*(depth/export depth)^-0.858}. The depth use \code{\link{etopo1}} and export depth was set to 100 m.
 All CIMP5 data were download from

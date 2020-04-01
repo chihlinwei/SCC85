@@ -8,7 +8,7 @@
 \describe{
   \item{epc_exsd_2041_to_2060}{Exposure to climate change hazard in export POC flux to seafloor}
   \item{o2_exsd_2041_to_2060}{Exposure to climate change hazard in dissolved oxygen concentration at seafloor}
-  \item{ph_exsd_2041_to_2060}{Exposure to climate change hazard in hydrogen ion concentration at seafloor}
+  \item{ph_exsd_2041_to_2060}{Exposure to climate change hazard in pH at seafloor}
   \item{thetao_exsd_2041_to_2060}{Exposure to climate change hazard in potential temperature at seafllor}
   \item{arag_exsd_2041_to_2060}{Exposure to climate change hazard in aragonite Concentration}
   \item{calc_exsd_2041_to_2060}{Exposure to climate change hazard in calcite Concentration}

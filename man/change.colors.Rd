@@ -10,8 +10,8 @@ change.colors(x)
 \item{x}{A Raster* object}
 }
 \description{
-This function return a list of color breaks and colors with white color showing no change
-and warm and cold colors for the positive and negative changes respectively.
+This function returns a list of color breaks and colors with white color showing no change
+and warm and cold colors for the positive and negative changes, respectively.
 }
 \examples{
 # Changes in seafloor temperature at 2041 to 2060
