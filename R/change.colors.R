@@ -1,7 +1,7 @@
 #' Color palettes to indicate change
 #'
-#' This function return a list of color breaks and colors with white color showing no change
-#' and warm and cold colors for the positive and negative changes respectively.
+#' This function returns a list of color breaks and colors with white color showing no change
+#' and warm and cold colors for the positive and negative changes, respectively.
 #'
 #' @param x A Raster* object
 #' @author Chih-Lin Wei <chihlinwei@@gmail.com>

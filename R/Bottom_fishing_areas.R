@@ -3,7 +3,7 @@
 #' Bottom fishing areas from FAO
 #'
 #' @details
-#' This dataset has compiled 5  separate regional fisheries management organizations (RFMOs).
+#' This dataset has compiled five separate regional fisheries management organizations (RFMOs).
 #' @docType data
 #' @keywords datasets
 #' @format A SpatialPolygonsDataFrame

@@ -9,7 +9,7 @@ A RasterBrick object of 4 raster layers:
 \describe{
   \item{epc_cv_2041_to_2060}{Coefficient variation of the mean export POC flux to seafloor (\%)}
   \item{o2_cv_2041_to_2060}{Coefficient variation of the mean dissolved oxygen concentration at seafloor (\%)}
-  \item{ph_cv_2041_to_2060}{Coefficient variation of the mean hydrogen ion concentration at seafloor (\%)}
+  \item{ph_cv_2041_to_2060}{Coefficient variation of the mean pH at seafloor (\%)}
   \item{thetao_cv_2041_to_2060}{Coefficient variation of the mean potential temperature at seafllor (\%)}
   \item{arag_cv_2041_to_2060}{Coefficient variation of aragonite Concentration (\%)}
   \item{calc_cv_2041_to_2060}{Coefficient variation of calcite Concentration (\%)}
