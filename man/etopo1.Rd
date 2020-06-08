@@ -4,7 +4,9 @@
 \name{etopo1}
 \alias{etopo1}
 \title{ETOPO1 Global Relief Model}
-\format{A RasterLayer object of water depth}
+\format{
+A RasterLayer object of water depth
+}
 \source{
 \url{https://www.ngdc.noaa.gov/mgg/global/global.html}
 }

@@ -4,7 +4,9 @@
 \name{seamount}
 \alias{seamount}
 \title{Global distribution of large seamounts}
-\format{A SpatialPointsDataFrame}
+\format{
+A SpatialPointsDataFrame
+}
 \source{
 \url{https://doi.org/10.1111/j.1365-246X.2011.05076.x}
 }

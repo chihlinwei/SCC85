@@ -4,7 +4,9 @@
 \name{mask2500}
 \alias{mask2500}
 \title{ETOPO1 Global Relief Model masked by 200 to 2500 m depth}
-\format{A RasterLayer object of water depth}
+\format{
+A RasterLayer object of water depth
+}
 \source{
 \url{https://www.ngdc.noaa.gov/mgg/global/global.html}
 }

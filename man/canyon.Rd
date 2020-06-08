@@ -4,7 +4,9 @@
 \name{canyon}
 \alias{canyon}
 \title{Global distribution of large submarine canyons}
-\format{A SpatialLinesDataFrame}
+\format{
+A SpatialLinesDataFrame
+}
 \source{
 \url{https://doi.org/10.1016/j.margeo.2011.05.008}
 }

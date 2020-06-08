@@ -4,7 +4,8 @@
 \name{cimp5_2041_2060_exsd}
 \alias{cimp5_2041_2060_exsd}
 \title{Exposure to Climate Change Hazard by 2041 to 2060}
-\format{A RasterBrick object of 4 raster layers:
+\format{
+A RasterBrick object of 4 raster layers:
 \describe{
   \item{epc_exsd_2041_to_2060}{Exposure to climate change hazard in export POC flux to seafloor}
   \item{o2_exsd_2041_to_2060}{Exposure to climate change hazard in dissolved oxygen concentration at seafloor}
@@ -17,7 +18,8 @@
   \item{co3satcalc_exsd_2041_to_2060}{Exposure to climate change hazard in carbonate ion concentration for seawater in equilibrium with pure calcite}
   \item{aragsat_exsd_2041_to_2060}{Exposure to climate change hazard in aragonite Saturation State}
   \item{calcsat_exsd_2041_to_2060}{Exposure to climate change hazard in calcite Saturation State}
-}}
+}
+}
 \source{
 \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
 }

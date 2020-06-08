@@ -4,7 +4,9 @@
 \name{VME_closed_areas}
 \alias{VME_closed_areas}
 \title{VME closed areas}
-\format{A SpatialPolygonsDataFrame}
+\format{
+A SpatialPolygonsDataFrame
+}
 \source{
 \itemize{
 \url{https://marine-conservation.org/what-we-do/program-areas/high-seas/deep-sea-benthic-protections/}

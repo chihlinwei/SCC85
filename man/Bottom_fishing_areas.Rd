@@ -4,7 +4,9 @@
 \name{Bottom_fishing_areas}
 \alias{Bottom_fishing_areas}
 \title{Bottom fishing areas}
-\format{A SpatialPolygonsDataFrame}
+\format{
+A SpatialPolygonsDataFrame
+}
 \source{
 \itemize{
 \url{https://marine-conservation.org/what-we-do/program-areas/high-seas/deep-sea-benthic-protections/}

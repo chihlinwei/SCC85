@@ -4,7 +4,8 @@
 \name{mk}
 \alias{mk}
 \title{Basin mask used for WOA2013v2 climatology objective analysis}
-\format{A RasterLayer object of 15 basin numbers
+\format{
+A RasterLayer object of 15 basin numbers
 \describe{
   \item{0}{Land mass}
   \item{1}{Atlantic Ocean}
@@ -21,7 +22,8 @@
   \item{12}{Sea of Japan}
   \item{53}{Caspian Sea }
   \item{56}{Bay of Bengal}
-}}
+}
+}
 \source{
 \url{https://www.nodc.noaa.gov/OC5/woa13/masks13.html}
 }

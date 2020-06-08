@@ -4,7 +4,8 @@
 \name{cimp5_1951_2000_cv}
 \alias{cimp5_1951_2000_cv}
 \title{Coefficient Variation of the Mean Seafloor Climatic Data among CIMP5 Models during 1951 to 2000}
-\format{A RasterBrick object of 4 raster layers:
+\format{
+A RasterBrick object of 4 raster layers:
 \describe{
   \item{epc_cv_1951_to_2000}{Coefficient variation of the mean export POC flux to seafloor (\%)}
   \item{o2_cv_1951_to_2000}{Coefficient variation of the mean dissolved oxygen concentration at seafloor (\%)}
@@ -15,7 +16,8 @@
   \item{co3_cv_1951_to_2000}{Coefficient variation of mole Concentration of Carbonate expressed as Carbon in Sea Water (\%)}
   \item{co3satarag_cv_1951_to_2000}{Coefficient variation of mole Concentration of Aragonite expressed as Carbon in Sea Water at Saturation (\%)}
   \item{co3satcalc_cv_1951_to_2000}{Coefficient variation of mole Concentration of Calcite expressed as Carbon in Sea Water at Saturation (\%)}
-}}
+}
+}
 \source{
 \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
 }

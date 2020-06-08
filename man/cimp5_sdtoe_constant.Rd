@@ -4,7 +4,8 @@
 \name{cimp5_sdtoe_constant}
 \alias{cimp5_sdtoe_constant}
 \title{Model-average Constant Time of Emergence}
-\format{A RasterBrick object of 4 raster layers:
+\format{
+A RasterBrick object of 4 raster layers:
 \describe{
   \item{epc_sdtoe_constant}{Constant time of emergence in export POC flux to seafloor}
   \item{o2_sdtoe_constant}{Constant time of emergence in dissolved oxygen concentration at seafloor}
@@ -17,7 +18,8 @@
   \item{co3satcalc_sdtoe_constant}{Constant time of emergence in carbonate ion concentration for seawater in equilibrium with pure calcite}
   \item{aragsat_sdtoe_constant}{Earliest time of emergence in aragonite Saturation State}
   \item{calcsat_sdtoe_constant}{Earliest time of emergence in calcite Saturation State}
-}}
+}
+}
 \source{
 \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
 }

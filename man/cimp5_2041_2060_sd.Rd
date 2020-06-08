@@ -4,7 +4,8 @@
 \name{cimp5_2041_2060_sd}
 \alias{cimp5_2041_2060_sd}
 \title{Model-Averaging Decadal Standard deviation of Seafloor Climatic Data during 2041 to 2060}
-\format{A RasterBrick object of 4 raster layers:
+\format{
+A RasterBrick object of 4 raster layers:
 \describe{
   \item{epc_sd_2041_to_2060}{Standard Deviation of export POC flux to seafloor (mg C m^-2 d^-1)}
   \item{o2_sd_2041_to_2060}{Standard Deviation of dissolved oxygen concentration at seafloor (mol m^-3)}
@@ -17,7 +18,8 @@
   \item{co3satcalc_sd_2041_to_2060}{Standard deviation of carbonate ion concentration for seawater in equilibrium with pure calcite (mol m-3)}
   \item{aragsat_sd_2041_to_2060}{Standard deviation of Aragonite Saturation State}
   \item{calcsat_sd_2041_to_2060}{Standard deviation of Calcite Saturation State}
-}}
+}
+}
 \source{
 \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
 }

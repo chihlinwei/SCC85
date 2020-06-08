@@ -4,7 +4,9 @@
 \name{coral}
 \alias{coral}
 \title{Global distribution of cold-water corals}
-\format{A SpatialPointsDataFrame}
+\format{
+A SpatialPointsDataFrame
+}
 \source{
 \url{http://data.unep-wcmc.org/datasets/3}
 }

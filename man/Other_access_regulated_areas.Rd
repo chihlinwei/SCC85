@@ -4,7 +4,9 @@
 \name{Other_access_regulated_areas}
 \alias{Other_access_regulated_areas}
 \title{Other access regulated areas}
-\format{A SpatialPolygonsDataFrame}
+\format{
+A SpatialPolygonsDataFrame
+}
 \source{
 \itemize{
 \url{https://marine-conservation.org/what-we-do/program-areas/high-seas/deep-sea-benthic-protections/}

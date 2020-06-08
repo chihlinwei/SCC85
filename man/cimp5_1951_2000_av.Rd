@@ -4,7 +4,8 @@
 \name{cimp5_1951_2000_av}
 \alias{cimp5_1951_2000_av}
 \title{Model-Averaging of Decadal Mean Seafloor Climatic Data during 1951 to 2000}
-\format{A RasterBrick object of 4 raster layers:
+\format{
+A RasterBrick object of 4 raster layers:
 \describe{
   \item{epc_av_1951_to_2000}{Mean export POC flux to seafloor (mg C m^-2 d^-1)}
   \item{o2_av_1951_to_2000}{Mean dissolved oxygen concentration at seafloor (mol m^-3)}
@@ -17,7 +18,8 @@
   \item{co3satcalc_av_1951_to_2000}{Carbonate ion concentration for seawater in equilibrium with pure calcite (mol m-3)}
   \item{aragsat_av_1951_to_2000}{Aragonite Saturation State}
   \item{calcsat_av_1951_to_2000}{Calcite Saturation State}
-}}
+}
+}
 \source{
 \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
 }
