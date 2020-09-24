@@ -3,7 +3,7 @@
 \docType{data}
 \name{cimp5_sdtoe_early}
 \alias{cimp5_sdtoe_early}
-\title{Model-average Earliest Time of Emergence}
+\title{Model-average Earliest Time of Emergence based on variability}
 \format{
 A RasterBrick object of 4 raster layers:
 \describe{
@@ -24,11 +24,11 @@ A RasterBrick object of 4 raster layers:
 \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
 }
 \description{
-Earliest time of emergence was estimated as the earliest year when climate change variability exceeds
+Earliest time of emergence was estimated as the first year when climate change variability exceeds
 historical climate variability.
 }
 \details{
-Earliest time of emergence was calculated as the earliest when the yearly cumulative future standard deviation
+Earliest time of emergence was calculated as the first year when the yearly cumulative future standard deviation
 exceed the historical yearly standard deviation \code{\link{cimp5_1951_2000_sd}}.
 }
 \keyword{datasets}

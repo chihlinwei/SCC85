@@ -24,7 +24,7 @@ A RasterBrick object of 4 raster layers:
 \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
 }
 \description{
-Emsemble average of the decadal mean seafloor (bottom-most) projections based on RCP8.5 scenario of CIMP5 experiment.
+Ensemble average of the decadal mean seafloor (bottom-most) projections based on RCP8.5 scenario of CIMP5 experiment.
 }
 \details{
 Yearly mean projections from 2041-2060 were calculated from each of the GFDL-ESM-2G, IPSL-CM5A-MR and MPI-ESM-MR.

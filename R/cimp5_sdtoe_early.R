@@ -1,10 +1,10 @@
-#' Model-average Earliest Time of Emergence
+#' Model-average Earliest Time of Emergence based on variability
 #'
-#' Earliest time of emergence was estimated as the earliest year when climate change variability exceeds
+#' Earliest time of emergence was estimated as the first year when climate change variability exceeds
 #' historical climate variability.
 #'
 #' @details
-#' Earliest time of emergence was calculated as the earliest when the yearly cumulative future standard deviation
+#' Earliest time of emergence was calculated as the first year when the yearly cumulative future standard deviation
 #' exceed the historical yearly standard deviation \code{\link{cimp5_1951_2000_sd}}.
 #' @docType data
 #' @keywords datasets

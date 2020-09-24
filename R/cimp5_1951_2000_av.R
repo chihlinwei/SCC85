@@ -1,6 +1,6 @@
 #' Model-Averaging of Decadal Mean Seafloor Climatic Data during 1951 to 2000
 #'
-#' Emsemble average of the decadal mean seafloor (bottom-most) projections based on historical scenario of CIMP5 experiment.
+#' Ensemble average of the decadal mean seafloor (bottom-most) projections based on historical scenario of CIMP5 experiment.
 #'
 #' @details
 #' Yearly mean projections from 1951 to 2000 were calculated from each of the GFDL-ESM-2G, IPSL-CM5A-MR and MPI-ESM-MR.

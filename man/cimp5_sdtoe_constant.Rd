@@ -3,7 +3,7 @@
 \docType{data}
 \name{cimp5_sdtoe_constant}
 \alias{cimp5_sdtoe_constant}
-\title{Model-average Constant Time of Emergence}
+\title{Model-average Constant Time of Emergence based on variability}
 \format{
 A RasterBrick object of 4 raster layers:
 \describe{
@@ -24,13 +24,11 @@ A RasterBrick object of 4 raster layers:
 \url{https://esgf-node.llnl.gov/search/esgf-llnl/}
 }
 \description{
-Constant time of emergence was estimated as the earliest year in a latest consecutive period
-when climate change variability exceeds historical climate variability.
+Constant time of emergence was estimated as the first year when climate change variability constantly
+(at least 90% of the remaining time) exceeding historical variability.
 }
 \details{
-Constant time of emergence was calculated as the earliest in a latest consecutive period
-when the yearly cumulative future standard deviation exceed the historical yearly standard deviation.
-Gap years (ratio < 1) within the consecutive period are allowed as long as the proportion of gap years
-is less than 10% of the total years within the period.
+Constant time of emergence was calculated as the first year when the yearly cumulative future standard deviation
+constantly (at least 90% of the remaining time) exceed the historical yearly standard deviation.
 }
 \keyword{datasets}
