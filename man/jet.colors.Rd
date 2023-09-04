@@ -39,19 +39,19 @@ and returns a character vector of colors
 }
 \section{Functions}{
 \itemize{
-\item \code{jet.col.rev}: Reversed 'jet.colors'
+\item \code{jet.col.rev()}: Reversed 'jet.colors'
 
-\item \code{jet.colors2}: Easier-on-eye version of 'jet.colors'
+\item \code{jet.colors2()}: Easier-on-eye version of 'jet.colors'
 
-\item \code{jet.colors3}: same jet.colors' with "white" color in the middle
+\item \code{jet.colors3()}: same jet.colors' with "white" color in the middle
 
-\item \code{jet.colors4}: same jet.colors' starts with "white" color
+\item \code{jet.colors4()}: same jet.colors' starts with "white" color
 
-\item \code{jet.col.log}: Same jet.colors in log scale
+\item \code{jet.col.log()}: Same jet.colors in log scale
 
-\item \code{jet.colors3.key}: Key colors and color breaks for jet.colors3
+\item \code{jet.colors3.key()}: Key colors and color breaks for jet.colors3
+
 }}
-
 \examples{
 jet.colors(10)
 }
